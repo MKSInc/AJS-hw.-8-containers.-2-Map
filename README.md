@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/lrm7acmprcobj47l?svg=true)](https://ci.appveyor.com/project/MKSInc/ajs-hw-8-containers-2-map)
+
 # 8. Домашнее задание к лекции «Контейнеры»
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
