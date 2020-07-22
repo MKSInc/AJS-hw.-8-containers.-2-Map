@@ -1,5 +1,12 @@
+/* eslint-disable no-console */
 // TODO: write your code here
-import templateFunc from './basic';
+import ErrorRepository from './ErrorRepository';
 
-// eslint-disable-next-line no-console
-console.log(templateFunc('test'));
+const errorRepository = new ErrorRepository();
+
+errorRepository.errors.set(0, 'Текст ошибки 0');
+errorRepository.errors.set(1, 'Текст ошибки 1');
+
+console.log(errorRepository.translate(0));
+console.log(errorRepository.translate(1));
+console.log(errorRepository.translate(2));
