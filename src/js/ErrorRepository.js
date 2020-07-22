@@ -4,7 +4,6 @@ export default class ErrorRepository {
   }
 
   translate(errCode) {
-    if (this.errors.has(errCode)) return this.errors.get(errCode);
-    return 'Unknown error';
+    return this.errors.has(errCode) ? this.errors.get(errCode) : 'Unknown error';
   }
 }
